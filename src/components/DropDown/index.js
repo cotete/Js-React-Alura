@@ -6,7 +6,7 @@ const DropDown = (props)=>{
         <div className="DropDown">
             <label>{props.label}</label>
             <select>
-                {props.itens.map(item => <option>{item}</option>)}
+                {props.itens.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>
     )

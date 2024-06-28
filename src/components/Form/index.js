@@ -3,6 +3,7 @@ import TextArea from '../TextArea'
 import DropDownChampions from '../DropDownChampions'
 
 import './Form.css'
+import BtnSubmit from '../BtnSubmit'
 
 const Form = ()=>{
 
@@ -22,6 +23,7 @@ const Form = ()=>{
                 <TextArea label = "Usuario" placeholder = "Digite o seu Usuário do lol, junto com a Hashtag"/>
                 <DropDown label = "Lane" itens = {times}></DropDown>
                 <DropDownChampions label = "Campeão"></DropDownChampions>
+                <BtnSubmit texto = "Enviar Card"></BtnSubmit>
             </form>
         </section>
     )
