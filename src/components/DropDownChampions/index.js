@@ -21,7 +21,7 @@ const DropDownChampions = (props) => {
     return (
         <div className='DropDownChamp'>
             <label>{props.label}</label>
-            <select>
+            <select onChange={e =>props.aoAlterado(e.target.value)} required = {props.required} value={props.valor}>
                 {data.map((champion) => (
                     <option key={champion}>{champion}</option>
                 ))}
