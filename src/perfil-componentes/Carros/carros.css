@@ -1,0 +1,26 @@
+.carros-container{
+    width: 100%;
+    background-color: rgb(148, 137, 243);
+    margin: 32px;
+    padding: 24px;
+    color: rgb(255, 255, 255);
+}
+.carros-container .carros-h1{
+    margin-bottom: 24px;
+}
+
+.carros-container .carros-area{
+    display: flex;
+}
+
+.carros-container .carros-nocars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+}
+.carros-container .header{
+    display: flex;
+    justify-content: space-between;
+}

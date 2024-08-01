@@ -1,0 +1,21 @@
+.Text-Area-add{
+    margin: 24px 0;
+    justify-content: center;
+}
+
+.Text-Area-add label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Text-Area-add input{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-size: 24px;
+    padding: 18px;
+    box-sizing: border-box;
+}

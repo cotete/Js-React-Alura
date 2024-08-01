@@ -1,9 +1,15 @@
+
 import Colaborador from '../Colaborador'
 import './Time.css'
 
+let lista =[]
 
 const Time = (props)=>{
     
+    if(sessionStorage.length > 0){
+        lista = JSON.parse(sessionStorage.getItem("lista_de_colaboradores"))
+    }
+
 
     return(
         props.colaboradores.length > 0 ? <section className='time' style={{backgroundColor: props.corSecundaria}}>
